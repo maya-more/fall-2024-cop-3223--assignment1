@@ -42,21 +42,12 @@ double calculateDistance() {
 }
 
 /*
-
 //perimeter function
 double calculatePerimeter() {
     double perimeter = 0;
     perimeter = calculateDistance();
     printf("\nThe perimeter of the city encompassed by your request is %lf", perimeter);
-    return 3.0;
-}
-
-//perimeter function
-double calculatePerimeter() {
-    double perimeter = 0;
-    perimeter = calculateDistance();
-    printf("\nThe perimeter of the city encompassed by your request is %lf", perimeter);
-    return 3.0;
+    return 3.0; 
 }
 
 //calculate area function
