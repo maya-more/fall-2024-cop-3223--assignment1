@@ -2,6 +2,7 @@
 #include <math.h>
 
 //gcc fracturing.c -lm && ./a.out
+//Maya Moreira UCFID 5642105
 
 
 double calculateDistance() {
@@ -137,6 +138,7 @@ int main(int argc, char** argv) {
     calculateWidth();
     calculateDistance();
     //calculatePerimeter();
+    //calculateArea();
     return 0;
 }
 
