@@ -35,12 +35,13 @@ double calculateDistance() {
     double pow_y_value = pow(y_value, 2);
     double sub_values = pow_x_value + pow_y_value;
     double distance = sqrt(sub_values);
-    printf("%lf \n", distance);
+    printf("\nThe distance between the two points is %lf", distance);
 
     return distance;
 }
 
 /*
+
 //perimeter function
 double calculatePerimeter() {
     double perimeter = 0;
@@ -49,7 +50,24 @@ double calculatePerimeter() {
     return 3.0;
 }
 
+//perimeter function
+double calculatePerimeter() {
+    double perimeter = 0;
+    perimeter = calculateDistance();
+    printf("\nThe perimeter of the city encompassed by your request is %lf", perimeter);
+    return 3.0;
+}
+
+//calculate area function
+
+double calculateArea() {
+
+    return 2;
+}
+
 */
+
+
 
 double calculateWidth() {
     //initialize variable with user input
@@ -78,6 +96,8 @@ double calculateWidth() {
     double width = x2 - x1;
 
     printf("\nThe width of the city encompassed by your request is %lf", width);
+
+    return 1;
 }
 
 double calculateHeight() {
@@ -107,8 +127,9 @@ double calculateHeight() {
     double height = y2 - y1;
 
     printf("\nThe height of the city encompassed by your request is %lf", height);
-}
 
+    return 1;
+}
 
 
 int main(int argc, char** argv) {
